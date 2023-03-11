@@ -71,7 +71,7 @@ provider:
           Action: 
             - "dynamodb:DeleteItem"
           Resource: !GetAtt PostsTable.Arn
-     getAllPosts:
+    getAllPosts:
       handler: api.getAllPost
       name: get-all-posts
       memorySize: 128 # mb
