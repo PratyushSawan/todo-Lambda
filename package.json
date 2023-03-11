@@ -1,0 +1,24 @@
+{
+  "name": "todo-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratyushSawan/todo-Lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PratyushSawan/todo-Lambda/issues"
+  },
+  "homepage": "https://github.com/PratyushSawan/todo-Lambda#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.289.0",
+    "@aws-sdk/util-dynamodb": "^3.289.0",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
